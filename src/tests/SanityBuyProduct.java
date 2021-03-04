@@ -59,7 +59,7 @@ public class SanityBuyProduct {
 	@BeforeMethod
 	public void beforeMethod(Method method) throws IOException {
 		myTest = extent.startTest(method.getName());
-		myTest.log(LogStatus.INFO, "Starting test", "Start test");
+		myTest.log(LogStatus.INFO, "Starting test", "Start test !");
 	}
 	
 
